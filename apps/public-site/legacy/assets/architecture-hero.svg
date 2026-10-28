@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Monochrome architectural study of light, arches and brutalist geometry">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#b8b8b5"/><stop offset=".56" stop-color="#e0deda"/><stop offset="1" stop-color="#cbc9c5"/></linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dddbd7"/><stop offset=".45" stop-color="#a4a39e"/><stop offset="1" stop-color="#787a76"/></linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2=".15"><stop stop-color="#e8e7e2"/><stop offset=".48" stop-color="#c1c0ba"/><stop offset="1" stop-color="#8a8b86"/></linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2=".4" y2="1"><stop stop-color="#bbb8b2"/><stop offset="1" stop-color="#6c6c68"/></linearGradient>
+    <linearGradient id="archShade" x1="0" y1="0" x2="1" y2=".1"><stop stop-color="#3d3e3c"/><stop offset=".7" stop-color="#777772"/><stop offset="1" stop-color="#a5a49e"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".42" numOctaves="3" seed="6" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="900" height="1100" fill="url(#sky)"/>
+  <path d="M0 0H490L420 750H0Z" fill="#dad9d4"/>
+  <path d="M0 0H82L30 745H0Z" fill="#8c8c87"/>
+  <path d="M420 0H898V775H385Z" fill="url(#tower)"/>
+  <path d="M490 0L400 740H475L578 0Z" fill="#70736f" opacity=".84"/>
+  <path d="M600 0H900V790H520L565 300Z" fill="#babbb5"/>
+  <path d="M663 0H900V610H650Z" fill="#999b96"/>
+  <path d="M690 0H900V620H725Z" fill="#b7b7b0"/>
+  <path d="M0 620L900 610V1100H0Z" fill="url(#ground)"/>
+  <path d="M0 775L900 682V1100H0Z" fill="#c6c4bf"/>
+  <path d="M0 775L900 682V710L0 826Z" fill="#969792"/>
+  <path d="M0 700L340 653L595 660L595 1080L0 1100Z" fill="#a6a49e"/>
+  <path d="M0 683L350 646L620 666L640 1100H0Z" fill="url(#wall)"/>
+  <path d="M330 662H620V1100H330Z" fill="#d6d5ce"/>
+  <path d="M350 680H618V1100H350Z" fill="#b9b9b3"/>
+  <path d="M380 1080V815C380 695 490 697 498 815V1080Z" fill="#494a47"/>
+  <path d="M408 1080V815C408 731 480 730 480 815V1080Z" fill="url(#archShade)"/>
+  <path d="M480 815C480 745 440 730 420 746C457 728 498 758 498 815Z" fill="#a6a69e"/>
+  <path d="M498 817V1080H521V815C521 687 356 689 355 815V1080H380V815C380 702 498 703 498 817Z" fill="#ecebe5"/>
+  <path d="M519 704L625 667V1100H521Z" fill="#8c8f89" opacity=".65"/>
+  <path d="M620 665L900 645V1100H620Z" fill="#aaa9a3"/>
+  <path d="M660 640L900 622V1100H660Z" fill="#bebdb7"/>
+  <path d="M740 615H900V1100H740Z" fill="#8e908a"/>
+  <path d="M765 665H899V1100H765Z" fill="#b7b6b0"/>
+  <path d="M900 1100L220 1100L436 894L900 746Z" fill="#6d6e6a" opacity=".45"/>
+  <path d="M0 1100V944L331 811L390 830L120 1100Z" fill="#464743" opacity=".37"/>
+  <path d="M524 1100L615 1040L900 1040V1100Z" fill="#5b5d58" opacity=".3"/>
+  <g fill="none" stroke="#777a74" stroke-width="1.2" opacity=".4">
+    <path d="M0 805L355 765M0 855L355 810M0 905L355 856M0 958L355 906M0 1015L355 956"/>
+    <path d="M705 0V620M765 0V611M830 0V612M590 0L530 620"/>
+    <path d="M620 765L740 748M620 856L740 846M620 956L740 956"/>
+  </g>
+  <path d="M0 0H900V1100H0Z" fill="#696865" filter="url(#grain)" opacity=".9"/>
+  <rect width="900" height="1100" fill="none" stroke="#c5c2bc" stroke-width="5"/>
+</svg>

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+apps/public-site/dist/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

@@ -1,0 +1,65 @@
+{
+  "provenanceVersion": 1,
+  "syncedAt": "2026-10-21T14:49:30.656Z",
+  "sourceDir": "D:\\HuaweiMoveData\\Users\\86191\\Desktop\\个人网页建立\\personal-space-recovered",
+  "baselineManifest": "docs/legacy-sha256.json",
+  "baselineGeneratedAt": "2026-10-21T14:12:14.472Z",
+  "note": "Verbatim copy of the M0.5 site source and assets. package.json, README.md and provenance.json are the only added files.",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1648,
+      "sha256": "E059EE23C3B4DC08BDC2F5DB0F0746E03CEB92F69E1688CA81A5C36A448DCDA7"
+    },
+    {
+      "path": "app.js",
+      "bytes": 6431,
+      "sha256": "8E208112266618437A42D9F1E2526084D98FAB2557245326C25734635541E684"
+    },
+    {
+      "path": "core.js",
+      "bytes": 662,
+      "sha256": "C25E7987DC6EB579633DFE5CB29699A002D038686FBC65EA535CA86D285C6B7D"
+    },
+    {
+      "path": "content.js",
+      "bytes": 19439,
+      "sha256": "45B41BCB776521835C22B5D156441A328AD34F727238BC77A29786EBA1B495B2"
+    },
+    {
+      "path": "render.js",
+      "bytes": 40452,
+      "sha256": "BE9FC5E59F21B56628717D988F8FFF66CD30FC3C8105A8C4FD86F5CCCAC2AC84"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 61757,
+      "sha256": "A521417D796FD068D933216445F33DE05DA1725E8595BA27F4CA1E92CB9BF365"
+    },
+    {
+      "path": "assets/architecture-hero.svg",
+      "bytes": 3637,
+      "sha256": "78A299FE0384D88C6B6F1C6A14154B006DC9B119DA30BEF5A49A254F98741436"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 269,
+      "sha256": "E60F66FEE2B812639282EC7EDA6E905D359D4F66C3DDD91B5BD61E29AA142440"
+    },
+    {
+      "path": "assets/gallery-placeholder.svg",
+      "bytes": 2385,
+      "sha256": "9EEA6BD3492F2D2E173965E2B185A92C7DE7B67FAD56316F6A0F8852AE0BE4D8"
+    },
+    {
+      "path": "assets/vinyl-hero.svg",
+      "bytes": 5151,
+      "sha256": "3DC0891B04417EBC7ACF685F84397AD4CF79B9CA1756D3B250A1FF99BC148F28"
+    }
+  ],
+  "addedFiles": [
+    "package.json",
+    "README.md",
+    "provenance.json"
+  ]
+}

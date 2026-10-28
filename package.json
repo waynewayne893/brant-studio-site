@@ -1,0 +1,13 @@
+{
+  "name": "brant-studio-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static source for the Brant Studio public website",
+  "scripts": {
+    "build": "node apps/public-site/build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
